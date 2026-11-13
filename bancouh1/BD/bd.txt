@@ -42,4 +42,30 @@ update Usuarios set correo = 'Karla@uh.com', clave='999' where correo = 'Karka@u
 
 delete usuarios where correo = 'jose@uh.com'
 
+
+
+create table Tecnicos
+(
+   tecnicoID varchar(50) primary key not null,
+   nombre varchar(100) not null,
+   especialidad varchar(50) not null,
+)
+
+
+
+
+
+create table Equipos
+(
+   
+   EquipoID varchar(50) primary key not null,
+   TipoEquipo varchar(100)not null,
+   Modelo varchar(100) not null,
+   correo varchar(50) not null,
+
+   FOREIGN key(correo) REFERENCES Usuarios(correo)
+
+)
+
+
                                                    

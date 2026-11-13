@@ -14,6 +14,8 @@
             <ul>
     <li><a class="active" href="Menu.aspx">Inicio</a></li>
     <li><a href="CatalogoUsuarios.aspx">Usuario</a></li>
+    <li><a href="CatalogoTecnicos.aspx">Tecnico</a></li>
+    <li><a href="CatalogoEquipos.aspx">Equipo</a></li>  
     <li><a href="Presentacion/Contacto.aspx">Contacto</a></li>
     <li><a href="Presentacion/AcercaDe.aspx">Acerca de</a></li>
 </ul>

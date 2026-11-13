@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="BD\bd.txt" />
     <Content Include="css\Estilo.css" />
+    <Content Include="Presentacion\CatalogoEquipos.aspx" />
+    <Content Include="Presentacion\CatalogoTecnicos.aspx" />
     <Content Include="Presentacion\CatalogoUsuarios.aspx" />
     <Content Include="Presentacion\Login.aspx" />
     <Content Include="Presentacion\Menu.aspx" />
@@ -76,8 +78,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Capa Logica\DBconn.cs" />
+    <Compile Include="Capa Logica\Equipos_CL.cs" />
+    <Compile Include="Capa Logica\Tecnicos.cs" />
     <Compile Include="Capa Logica\Usuarios_CL.cs" />
     <Compile Include="CapaDatos\Cls_Usuarios.cs" />
+    <Compile Include="CapaDatos\Equipos.cs" />
+    <Compile Include="CapaDatos\Tecnicos.cs" />
+    <Compile Include="Presentacion\CatalogoEquipos.aspx.cs">
+      <DependentUpon>CatalogoEquipos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\CatalogoEquipos.aspx.designer.cs">
+      <DependentUpon>CatalogoEquipos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\CatalogoTecnicos.aspx.cs">
+      <DependentUpon>CatalogoTecnicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\CatalogoTecnicos.aspx.designer.cs">
+      <DependentUpon>CatalogoTecnicos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\CatalogoUsuarios.aspx.cs">
       <DependentUpon>CatalogoUsuarios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
